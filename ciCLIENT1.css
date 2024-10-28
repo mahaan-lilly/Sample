@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  color: #424143;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.75;
+  margin: 0px;
+}
+
+.flex-container{
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: #ef700c;
+  outline: none;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #008000;
+}
+
+img {
+  border: 0;
+  background-color: rgb(59 108 106);
+  display: block;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+ol, ul {
+  margin: 1em 0;
+  padding: 0 0 0 1.25em;
+}
+
+p {
+  margin: 1em 0;
+  font-size: 16px;
+  padding: 0;
+}
+
+.contain {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.fill {
+  min-width: 1200px;
+  width: 100%;
+}
+
+.bottom {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.top {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
+header {
+  display: block;
+  background-color: rgb(0 71 135);
+}
+
+#epLang {
+  color: black;
+  display: block;
+}
+
+#epLang a {
+  display: none;
+}
+
+header .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+a.logo {
+  background: url(logo1.png) center top no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 50px;
+  margin: 20px 10px 20px 10px;
+  width: 150px;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  flex-grow: 0;
+
+}
+
+nav a {
+  color: #e6ebee;
+  display: inline-block;
+  font: normal 400 18px/25px sans-serif;
+  padding: 0 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+#epAttention {
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* content */
+
+main {
+  display: block;
+  padding: 30px 0px 50px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.col-left {
+  padding: 0 10px;
+  width: 58%;
+}
+
+div.col-right {
+  padding: 0 10px;
+  width: 38%;
+}
+
+h1 {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1.75;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.75;
+  padding: 0;
+}
+
+h3 {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.75;
+  padding: 0;
+}
+
+#epEmergency {
+  padding-top: 20px;
+  padding-inline-start: 50px;
+  padding-inline-end: 50px;
+  text-align: center;
+  font-size: 12px;
+  background-color: rgb(0 71 135);
+  color: white;
+}
+
+#epNAVEXFooter {
+  background-color: rgb(0 71 135);
+  color: white;
+}
+
+#epDDN {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.listor {
+  list-style: none;
+  margin: 1em 0;
+}
+
+#epDataPrivacy {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#epDataPrivacy ol.dropDowns {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+select {
+  font: normal 400 14px sans-serif;
+  margin: 2px 0 15px;
+  padding: 5px;
+  width: 100%;
+}
+
+.button-container{
+  text-align: center;
+}
+
+button {
+  width: 200px;
+  background: rgb(59 108 106);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 18px;
+}
+
+button:hover {
+  background: #333;
+  color: #fff;
+}
+
+button:disabled {
+  background: #ddd;
+  cursor: default;
+}
+
+button:hover:disabled {
+  background: #ddd;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+#epIssues {
+  width: 100%;
+}
+
+#epIssues .catdesc {
+  display: none;
+}
+
+#epIssues .catname {
+  font: normal 700 16px/20px sans-serif;
+}
+
+#epIssues .details {
+  font-size: 12px;
+  margin-left: auto;
+}
+
+#epIssues .issue {
+  color: #0000ff;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  position: relative;
+}
+
+#epIssues .issue:hover {
+  color: #008000;
+}
+
+#epIssues .name {
+  font: normal 700 14px/20px sans-serif;
+}
+
+#epIssues .desc {
+  flex-basis: 100%;
+  padding: 5px 0;
+}
+
+/* footer */
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer th {
+  display: none;
+}
+
+footer td {
+  padding: 5px 0 0 !important;
+}
+
+footer .line1 {
+  float: left;
+  padding-left: 10px;
+}
+
+footer .line2 {
+  color: #fff;
+  float: right;
+  padding-right: 10px;
+}
+
+footer table {
+  margin: 0 auto !important;
+  width: 1200px !important;
+}
